@@ -1,7 +1,7 @@
 <x-layouts.base :title="$title ?? null">
 
     <div id="page-container" x-data="{ mobileSidebarOpen: false }"
-        class="relative mx-auto flex min-h-screen min-w-[320px] flex-col lg:ml-96">
+        class="relative mx-auto flex min-h-screen min-w-[320px] flex-col lg:ml-72">
 
         <x-layouts.sidebar.primary />
 
